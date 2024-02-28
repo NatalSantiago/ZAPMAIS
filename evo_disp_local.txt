@@ -1,0 +1,51 @@
+LINKS PARA DOWNLOADS.
+https://nodejs.org/en/download
+https://git-scm.com
+https://github.com/thiagociavolela/sistemamkt
+
+   KEY: B6D711FCDE4D4FD5936544120E713976
+
+
+
+1º INSTALANDO NPM
+===================
+npm install -g npm@latest --force
+
+2º CLONANDO DIRETÓRIO EvolutionAPI
+==================================
+git clone https://github.com/EvolutionAPI/evolution-api.git
+
+3° RENOMEAR O ARQUIVO ENV
+=========================
+
+4º NAVEGAR ATÉ O DIRETORIO DA PASTA DA EvolutionAPI
+===================================================
+
+5° INICIANDO A API
+==================
+npm run start:prod
+
+
+6º CRIANDO INSTANCIA
+=====================
+curl -X POST http://10.0.1.106:8080/instance/create -H "apikey: B6D711FCDE4D4FD5936544120E713976" -H "Content-Type: application/json" -d '{
+    "instanceName": "envio01",
+    "token": "",
+    "qrcode": true
+}'
+
+7° GERANDO O QRCODE PARA CONECTAR SEU WHATSAPP
+==============================================
+curl -X GET http://10.0.1.106:8080/instance/connect/envio01 -H "apikey: B6D711FCDE4D4FD5936544120E713976"
+
+
+=========================================================================================================================================
+
+"Potencialize suas campanhas online com o *FiltraMais.com*! Filtragem de vídeos e canais do youtube, personalização de links e rastreamento de cliques por região. Otimize agora sua presença na Rede de Pesquisa e Display. Experimente já!"
+
+Acesse: www.filtramais.com
+
+========================================================================================================================================
+
+https://i.postimg.cc/GhYJR3QC/Logo-Normal.png
+
